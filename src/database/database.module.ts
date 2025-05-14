@@ -27,7 +27,7 @@ import { join } from 'path';
               database: config.get<string>('DB_NAME'),
               entities: [join(__dirname, '../**/*.entity.{ts,js}')],
               synchronize: false, // Don't leave this on for production!
-              uuidExtension: 'uuid-ossp',
+              uuidExtension: 'uuid-ossp'
             };
       },
     }),

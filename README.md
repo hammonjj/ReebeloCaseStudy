@@ -137,13 +137,12 @@ DB_NAME=your-db-name
 ```
 
 ## Future Work
-- Add comprehensive test coverage for edge cases
+- Implement unit tests
+- Implement E2E tests
 - Optimize database queries for better performance
 - Integrate CI/CD pipelines for automated testing and deployment
 - Implement a circuit breaker mechanism
 - Change services such that you can connect to other environment services should the need arise
-- Implement unit tests
-- Implement E2E tests
 
 ## Misc. Interview Notes
 Order:
